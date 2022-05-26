@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-ru" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+
+    <title>-</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="navbar">
+
+            <div class="logo-img">
+                <img src="./img/logo.svg" alt="logo">
+            </div>
+
+            <div class="cname">
+                <h1>Abduazimov</h1>
+            </div>
+
+            <div class="nav">
+
+                <div class="dropdown-menu">
+                    Menu
+                    <ul class="dropdown">
+                        <li><a href="./index.php">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Projects</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <ul class="footer">
+
+        <li>
+            <a href="#" class="link">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <img src="./img/brand_facebook.svg" alt="" class="fa-img">
+                <span> - Facebook</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#" class="link">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <img src="./img/brand_telegram.svg" alt="" class="fa-img">
+                <span> - Telegram</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#" class="link">
+                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                <img src="./img/brand_pinterest.svg" alt="" class="fa-img">
+                <span> - Pinterest</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#" class="link">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <img src="./img/brand_instagram.svg" alt="" class="fa-img">
+                <span> - Instagram</span>
+            </a>
+        </li>
+
+    </ul>
+
+
+    
+
+
+
+    <script>
+
+        let showingAlert = false;
+        const interval = setInterval(() => {
+            document.title = showingAlert
+                ? 'Abduazimov' : 'Contact';
+            showingAlert = !showingAlert;
+        }, 2000);
+
+
+    </script>
+
+
+
+</body>
